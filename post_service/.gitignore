@@ -1,0 +1,19 @@
+# Игнорируем файлы виртуального окружения
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+.env
+
+*.log
+*.pot
+*.pyc
+*.swp
+*.swo
+
+.vscode/
+.idea/
+*.sublime-workspace
