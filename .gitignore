@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Database
+*.sqlite3
+*.db
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Media / Static files
+/media/
+/static/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Pip and package manager files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Deployment
+*.pem
+*.crt
+*.key
+
+
