@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Letter(models.Model):
     LETTER_TYPES = [
         (1, "Письмо"),
@@ -20,7 +19,6 @@ class Letter(models.Model):
 
     def __str__(self):
         return f"{self.sender_name} -> {self.recipient_name} ({self.get_letter_type_display()})"
-
 
 class Package(models.Model):
     PACKAGE_TYPES = [
