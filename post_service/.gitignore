@@ -6,8 +6,6 @@ env/
 *.pyd
 __pycache__/
 
-.env
-
 *.log
 *.pot
 *.pyc

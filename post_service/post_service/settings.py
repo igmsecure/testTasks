@@ -1,9 +1,10 @@
 import environ
 from pathlib import Path
 
-# Инициализация environ
+# Инициализация и чтение environ
 env = environ.Env()
-environ.Env.read_env()  # Чтение файла .env
+env_file_path = Path(__file__).resolve().parent.parent / '.env'
+environ.Env.read_env(env_file_path)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
